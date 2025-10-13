@@ -25,3 +25,8 @@ Additionally, add your HDL files to the project using Project --> Add/Remove Fil
 You will need to instantiate your HDL code into the top-level Verilog template. To instantiate a HDL module inside a Verilog design, make sure the two files are in the same directory and that they have been added to the project for compilation. Next, simply instantiate the lower level HDL design by name in the Verilog file. For example, insert a line of code in the top level Verilog file something like:
     ```SWITCHES u1 (.SW(SW), .HEX0(HEX0), .HEX1(HEX1));```
 This should wire together your HDL design with the top-level. Save the modified top-level Verilog file, which should be DE10_LITE_Default.v. Be sure to set this file as the top-level entity.
+
+## Programming the FPGA 
+From the Quartus Prime software's top menu, select Tools -> Programmer. In the new window, select `Add file` and then the .sof file (This assumes all compilation tasks have run succesffully). Back to the window, under `Selected hardware`, pick `USB-Blaster`. 
+
+Finally, click Start. 
