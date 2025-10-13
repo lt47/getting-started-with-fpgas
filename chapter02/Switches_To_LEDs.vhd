@@ -15,5 +15,12 @@ begin
   LEDR(1) <= SW(1);
   LEDR(2) <= SW(2);
   LEDR(3) <= SW(3);
+  LEDR(4) <= SW(4);
+  LEDR(5) <= SW(5);
+  LEDR(6) <= SW(6);
+  LEDR(7) <= SW(7);
+  LEDR(8) <= SW(8);
+  LEDR(9) <= SW(9);
   
 end architecture RTL;
+ 
