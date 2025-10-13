@@ -1,10 +1,10 @@
 ## About
 
-This repository contains supporting code for the book Getting Started with FPGAs by Russell Merrick. All Verilog and VHDL code used in the book can be found in this repository. 
+This repository contains supporting code for the book Getting Started with FPGAs by Russell Merrick with a target board of the DE-10 lite. All Verilog and VHDL code used in the book has been modified for the DE-10 Lite board. 
 
 Within this repository, the code is broken down by Chapters. These chapters match the organization in the book. See below for details of each chapter.
 
-If you find any typos, errors, or suggested improvements, please open an issue within this GitHub repository.
+The original repository can be found [here](https://github.com/nandland/getting-started-with-fpgas)
 
 ## More References
 
@@ -12,13 +12,11 @@ If you find any typos, errors, or suggested improvements, please open an issue w
 
 - More examples and tutorials at [nandland.com](https://nandland.com)
 
-- My [YouTube](https://youtube.com/c/nandland) channel
+- Russel Merrick's [YouTube](https://youtube.com/c/nandland) channel
 
 - Free Verilog and VHDL simulator: [EDA Playground](https://edaplayground.com)
 
-- Download Lattice [iCEcube2](https://www.latticesemi.com/iCEcube2)
-
-- Buy a [Go Board](https://nandland.com/the-go-board) to run your Verilog or VHDL on a real device
+- DE-10 lite specific information found here: [DE-10 Lite](https://github.com/lt47/getting-started-with-fpgas/de10-project-setup)
 
 ## Book Table of Contents
 
